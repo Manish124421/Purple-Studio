@@ -1,0 +1,81 @@
+@keyframes backanime {
+    from{
+        transform: translate(55%,-2%);
+    }
+    
+    to{
+        transform: translate(0%,10%);
+    }
+}
+@keyframes backanime2 {
+    from{
+        transform: translate(5%,-5%);
+    }
+    
+    to{
+        transform: translate(-20%,30%);
+    }
+}
+
+
+@keyframes scrolling-text {
+    from{
+        transform: translateX(0);
+    }
+    
+    to{
+        transform: translateX(-100%);
+    }
+}
+@keyframes backanime3 {
+    from{
+        filter: blur(20px);
+        transform: translate(10%,-10%) skew(0);
+    }
+    
+    to{
+        filter: blur(30px);
+        transform: translate(-10%,10%) skew(-12deg);
+    }
+}
+
+@keyframes square {
+    from{
+        transform: rotate(45deg) translate(0%,0%);
+        filter: blur(22px);
+    }
+    to{
+        transform: rotate(47deg) translate(0,5%);
+        filter: blur(25px);
+    }
+}
+@keyframes squaretwo {
+    from{
+        transform: rotate(45deg) translate(0%,0%);
+        filter: blur(37px);
+    }
+    to{
+        transform: rotate(47deg) translate(0%,-3%);
+        filter: blur(40px);
+    }
+}
+
+/* loader */
+
+@keyframes load {
+    0%{
+     opacity: 0;   
+    }
+
+    10%{
+     opacity: 1;   
+    }
+
+    90%{
+     opacity: 1;   
+    }
+
+    100%{
+     opacity: 0;   
+    }
+}
